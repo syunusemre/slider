@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("resim/forestback.jpg");
+}
+
+.conteiner {
+    position: relative;
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+}
+
+.conteiner-img {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imgs {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.imgs-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.slider__item--current {
+    opacity: 1;
+}
+
+.imgs-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.sol {
+    position: relative;
+    margin-top: -32%;
+    float: left;
+}
+
+.sağ {
+    position: relative;
+    margin-top: -32%;
+    float: right;
+}
+
+.sol img {
+    width: 50px;
+    height: 50px;
+}
+
+.sağ img {
+    width: 50px;
+    height: 50px;
+}
